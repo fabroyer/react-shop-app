@@ -1,3 +1,13 @@
+import monstera from '../assets/monstera.jpg'
+import lyrata from '../assets/lyrata.jpg'
+import pothos from '../assets/pothos.jpg'
+import succulent from '../assets/succulent.jpg'
+import olivier from '../assets/olivier.jpg'
+import basil from '../assets/basil.jpg'
+import mint from '../assets/mint.jpg'
+import calathea from '../assets/calathea.jpg'
+import cactus from '../assets/cactus.jpg'
+
 export const plantList = [
 	{
 		name: 'monstera',
@@ -63,5 +73,14 @@ export const plantList = [
 		id: '9vn',
 		light: 2,
 		water: 1
+	},
+	{
+		name: 'menthe',
+		category: 'extérieur',
+		id: '6uo',
+		light: 2,
+		water: 2,
+		cover: mint,
+		price: 4
 	}
 ]
