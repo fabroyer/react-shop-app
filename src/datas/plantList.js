@@ -67,7 +67,6 @@ export const plantList = [
 		name: 'basilique',
 		category: 'extérieur',
 		id: '7ie',
-		isBestSale: true,
 		light: 2,
 		water: 3,
 		cover: basil,
