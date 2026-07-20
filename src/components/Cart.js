@@ -1,5 +1,5 @@
 import '../styles/Cart.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 function Cart({ cart, updateCart }) {
 	const [isOpen, setIsOpen] = useState(true)
